@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="./Assets/style.css"/>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    
+    <div>
+        <h2>Search for a city:</h2>
+        <input type="text" id="city-search">
+        <button id="search-btn" >Search</button>
+    </div>
+    
+    <div>
+        <h2 id="city-name"></h2><h2 id="date"></h2><img id="weather-icon" src="https://openweathermap.org/img/wn/10d.png"/>
+        <p>Temp: <span id="temp"></span>&#x2109</p>
+        <p>Wind: <span id="wind"></span> MPH</p>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        <p>UV Index: <span id="uvi"></span></p>
+    </div>
+    
+    <div>
+        <h3>5-Day Forecast:</h3>
+            <div id="day1"></div>
+            <div id="day2"></div>
+            <div id="day3"></div>
+            <div id="day4"></div>
+            <div id="day5"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/script.js"></script>
+    </body>
+</html>
