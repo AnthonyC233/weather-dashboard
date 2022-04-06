@@ -127,4 +127,5 @@ function replaceUvi(uvi) {
     }
 }
 
+
 $("#search-btn").on('click', getweatherInfo);
